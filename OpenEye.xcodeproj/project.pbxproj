@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B137BE11E66B1EE003CD7C5 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B137BE01E66B1EE003CD7C5 /* GameModel.swift */; };
+		8BC88EC71E665D6A00772B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EC61E665D6A00772B32 /* AppDelegate.swift */; };
+		8BC88EC91E665D6A00772B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EC81E665D6A00772B32 /* ViewController.swift */; };
+		8BC88ECC1E665D6A00772B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC88ECA1E665D6A00772B32 /* Main.storyboard */; };
+		8BC88ECE1E665D6A00772B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC88ECD1E665D6A00772B32 /* Assets.xcassets */; };
+		8BC88ED11E665D6A00772B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC88ECF1E665D6A00772B32 /* LaunchScreen.storyboard */; };
+		8BC88EDC1E665D6A00772B32 /* OpenEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EDB1E665D6A00772B32 /* OpenEyeTests.swift */; };
+		8BC88EE71E66993800772B32 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EE61E66993800772B32 /* HomeViewController.swift */; };
+		8BC88EEB1E66A25200772B32 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EEA1E66A25200772B32 /* MainViewController.swift */; };
+		8BC88EED1E66A31A00772B32 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EEC1E66A31A00772B32 /* LiveViewController.swift */; };
+		8BC88EEF1E66A32700772B32 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EEE1E66A32700772B32 /* FollowViewController.swift */; };
+		8BC88EF11E66A33A00772B32 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88EF01E66A33A00772B32 /* ProfileViewController.swift */; };
+		A2CD05C4A887FC00B5C336C5 /* Pods_OpenEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2AD2FE7CD75F49C8998EF8 /* Pods_OpenEye.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC88ED81E665D6A00772B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC88EBB1E665D6A00772B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC88EC21E665D6A00772B32;
+			remoteInfo = OpenEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A2AD2FE7CD75F49C8998EF8 /* Pods_OpenEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEB75089206FF797D47AE26 /* Pods-OpenEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenEye.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenEye/Pods-OpenEye.debug.xcconfig"; sourceTree = "<group>"; };
+		877089A04BD584152E186631 /* Pods-OpenEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenEye.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenEye/Pods-OpenEye.release.xcconfig"; sourceTree = "<group>"; };
+		8B137BE01E66B1EE003CD7C5 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		8BC88EC31E665D6A00772B32 /* OpenEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC88EC61E665D6A00772B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BC88EC81E665D6A00772B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BC88ECB1E665D6A00772B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BC88ECD1E665D6A00772B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BC88ED01E665D6A00772B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC88ED21E665D6A00772B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC88ED71E665D6A00772B32 /* OpenEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC88EDB1E665D6A00772B32 /* OpenEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEyeTests.swift; sourceTree = "<group>"; };
+		8BC88EDD1E665D6A00772B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC88EE61E66993800772B32 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BC88EEA1E66A25200772B32 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8BC88EEC1E66A31A00772B32 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		8BC88EEE1E66A32700772B32 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		8BC88EF01E66A33A00772B32 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC88EC01E665D6A00772B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CD05C4A887FC00B5C336C5 /* Pods_OpenEye.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC88ED41E665D6A00772B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC88EBA1E665D6A00772B32 = {
+			isa = PBXGroup;
+			children = (
+				8BC88EC51E665D6A00772B32 /* OpenEye */,
+				8BC88EDA1E665D6A00772B32 /* OpenEyeTests */,
+				8BC88EC41E665D6A00772B32 /* Products */,
+				FAC676678AF8071EF2FFF58F /* Pods */,
+				B6B5BE2D4A07B33BAC3D9608 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC88EC41E665D6A00772B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC88EC31E665D6A00772B32 /* OpenEye.app */,
+				8BC88ED71E665D6A00772B32 /* OpenEyeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC88EC51E665D6A00772B32 /* OpenEye */ = {
+			isa = PBXGroup;
+			children = (
+				8BC88EC61E665D6A00772B32 /* AppDelegate.swift */,
+				8BC88EC81E665D6A00772B32 /* ViewController.swift */,
+				8BC88ECA1E665D6A00772B32 /* Main.storyboard */,
+				8BC88ECD1E665D6A00772B32 /* Assets.xcassets */,
+				8BC88ECF1E665D6A00772B32 /* LaunchScreen.storyboard */,
+				8BC88ED21E665D6A00772B32 /* Info.plist */,
+				8BC88EEA1E66A25200772B32 /* MainViewController.swift */,
+				8BC88EE61E66993800772B32 /* HomeViewController.swift */,
+				8BC88EEC1E66A31A00772B32 /* LiveViewController.swift */,
+				8BC88EEE1E66A32700772B32 /* FollowViewController.swift */,
+				8BC88EF01E66A33A00772B32 /* ProfileViewController.swift */,
+				8B137BE01E66B1EE003CD7C5 /* GameModel.swift */,
+			);
+			path = OpenEye;
+			sourceTree = "<group>";
+		};
+		8BC88EDA1E665D6A00772B32 /* OpenEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC88EDB1E665D6A00772B32 /* OpenEyeTests.swift */,
+				8BC88EDD1E665D6A00772B32 /* Info.plist */,
+			);
+			path = OpenEyeTests;
+			sourceTree = "<group>";
+		};
+		B6B5BE2D4A07B33BAC3D9608 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A2AD2FE7CD75F49C8998EF8 /* Pods_OpenEye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC676678AF8071EF2FFF58F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EEB75089206FF797D47AE26 /* Pods-OpenEye.debug.xcconfig */,
+				877089A04BD584152E186631 /* Pods-OpenEye.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC88EC21E665D6A00772B32 /* OpenEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC88EE01E665D6A00772B32 /* Build configuration list for PBXNativeTarget "OpenEye" */;
+			buildPhases = (
+				98B07B32D783341ACA2B8ACD /* [CP] Check Pods Manifest.lock */,
+				8BC88EBF1E665D6A00772B32 /* Sources */,
+				8BC88EC01E665D6A00772B32 /* Frameworks */,
+				8BC88EC11E665D6A00772B32 /* Resources */,
+				7EB91B6EC2E2CBD5F9781879 /* [CP] Embed Pods Frameworks */,
+				B666F97A30A7DC9B38719FDC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenEye;
+			productName = OpenEye;
+			productReference = 8BC88EC31E665D6A00772B32 /* OpenEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC88ED61E665D6A00772B32 /* OpenEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC88EE31E665D6A00772B32 /* Build configuration list for PBXNativeTarget "OpenEyeTests" */;
+			buildPhases = (
+				8BC88ED31E665D6A00772B32 /* Sources */,
+				8BC88ED41E665D6A00772B32 /* Frameworks */,
+				8BC88ED51E665D6A00772B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC88ED91E665D6A00772B32 /* PBXTargetDependency */,
+			);
+			name = OpenEyeTests;
+			productName = OpenEyeTests;
+			productReference = 8BC88ED71E665D6A00772B32 /* OpenEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC88EBB1E665D6A00772B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yuliuyang;
+				TargetAttributes = {
+					8BC88EC21E665D6A00772B32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N87WFK5UUT;
+						ProvisioningStyle = Automatic;
+					};
+					8BC88ED61E665D6A00772B32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N87WFK5UUT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BC88EC21E665D6A00772B32;
+					};
+				};
+			};
+			buildConfigurationList = 8BC88EBE1E665D6A00772B32 /* Build configuration list for PBXProject "OpenEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC88EBA1E665D6A00772B32;
+			productRefGroup = 8BC88EC41E665D6A00772B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC88EC21E665D6A00772B32 /* OpenEye */,
+				8BC88ED61E665D6A00772B32 /* OpenEyeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC88EC11E665D6A00772B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC88ED11E665D6A00772B32 /* LaunchScreen.storyboard in Resources */,
+				8BC88ECE1E665D6A00772B32 /* Assets.xcassets in Resources */,
+				8BC88ECC1E665D6A00772B32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC88ED51E665D6A00772B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EB91B6EC2E2CBD5F9781879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenEye/Pods-OpenEye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B07B32D783341ACA2B8ACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B666F97A30A7DC9B38719FDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenEye/Pods-OpenEye-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC88EBF1E665D6A00772B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC88EC91E665D6A00772B32 /* ViewController.swift in Sources */,
+				8BC88EC71E665D6A00772B32 /* AppDelegate.swift in Sources */,
+				8BC88EE71E66993800772B32 /* HomeViewController.swift in Sources */,
+				8BC88EED1E66A31A00772B32 /* LiveViewController.swift in Sources */,
+				8BC88EF11E66A33A00772B32 /* ProfileViewController.swift in Sources */,
+				8B137BE11E66B1EE003CD7C5 /* GameModel.swift in Sources */,
+				8BC88EEB1E66A25200772B32 /* MainViewController.swift in Sources */,
+				8BC88EEF1E66A32700772B32 /* FollowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC88ED31E665D6A00772B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC88EDC1E665D6A00772B32 /* OpenEyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC88ED91E665D6A00772B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC88EC21E665D6A00772B32 /* OpenEye */;
+			targetProxy = 8BC88ED81E665D6A00772B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC88ECA1E665D6A00772B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC88ECB1E665D6A00772B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC88ECF1E665D6A00772B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC88ED01E665D6A00772B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC88EDE1E665D6A00772B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BC88EDF1E665D6A00772B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC88EE11E665D6A00772B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEB75089206FF797D47AE26 /* Pods-OpenEye.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N87WFK5UUT;
+				INFOPLIST_FILE = OpenEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsh178.OpenEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8BC88EE21E665D6A00772B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877089A04BD584152E186631 /* Pods-OpenEye.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N87WFK5UUT;
+				INFOPLIST_FILE = OpenEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsh178.OpenEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8BC88EE41E665D6A00772B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N87WFK5UUT;
+				INFOPLIST_FILE = OpenEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsh178.OpenEyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEye.app/OpenEye";
+			};
+			name = Debug;
+		};
+		8BC88EE51E665D6A00772B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N87WFK5UUT;
+				INFOPLIST_FILE = OpenEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsh178.OpenEyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEye.app/OpenEye";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC88EBE1E665D6A00772B32 /* Build configuration list for PBXProject "OpenEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC88EDE1E665D6A00772B32 /* Debug */,
+				8BC88EDF1E665D6A00772B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC88EE01E665D6A00772B32 /* Build configuration list for PBXNativeTarget "OpenEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC88EE11E665D6A00772B32 /* Debug */,
+				8BC88EE21E665D6A00772B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC88EE31E665D6A00772B32 /* Build configuration list for PBXNativeTarget "OpenEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC88EE41E665D6A00772B32 /* Debug */,
+				8BC88EE51E665D6A00772B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC88EBB1E665D6A00772B32 /* Project object */;
+}
